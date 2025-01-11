@@ -40,3 +40,31 @@ h1 span{
     padding: 7px 10px;
     border-radius: 10px;
 }
+h1 span:hover{
+    background-color: black;
+    color:rosybrown;
+}
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-items:normal;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.child{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border:3px solid green;
+    background-image: url(https://images.unsplash.com/photo-1736529546851-cb5447715fe7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position:center;
+}
+#child2{
+    background-image: url(https://plus.unsplash.com/premium_photo-1736340814553-1c421a66fd06?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyOHx8fGVufDB8fHx8fA%3D%3D);
+}
+#child3{
+    background-image: url(https://images.unsplash.com/photo-1736092306049-d55fd016a88f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2Nnx8fGVufDB8fHx8fA%3D%3D);
+}
